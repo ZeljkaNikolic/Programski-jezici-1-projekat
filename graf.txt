@@ -1,0 +1,40 @@
+6
+Location A
+Location B
+Location C
+Location D
+Intersection I1 4
+  InRoad road2 200 60 5
+  InRoad road7 680 60 15
+  InRoad road4 600 60 19
+  OutRoad road1 300 60 12
+  OutRoad road5 150 60 5
+  OutRoad road9 120 60 5
+  OutRoad road3 500 60 17
+Edges (input_node_id, output_node_id, can cross/can't cross, length, average speed):
+   road2 road9 1 320 60
+   road2 road3 1 700 60
+   road2 road5 1 350 60
+   road7 road1 1 980 60
+   road7 road5 1 830 60
+   road7 road9 1 800 60
+   road7 road3 1 1180 60
+   road4 road9 1 720 60
+   road4 road5 1 750 60
+   road4 road1 1 900 60
+   road2 road1 0 0 0
+   road4 road3 1 1100 60
+Intersection I2 5
+  InRoad road8 130 60 10
+  InRoad road6 310 60 6
+  OutRoad road7 680 60 15
+Edges (input_node_id, output_node_id, can cross/can't cross, length, average speed):
+   road8 road7 1 810 60
+   road6 road7 1 990 60
+Matrix
+0 0 0 0 road2 0 
+0 0 0 0 0 road8 
+0 0 0 0 road4 0 
+0 0 0 0 0 road6 
+road1 road9 road3 road5 0 0 
+0 0 0 0 road7 0 
